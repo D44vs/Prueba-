@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Preguntar la ubicación de la carpeta
-read -p "Introduce la ruta de la carpeta donde deseas inicializar el repositorio Git: " carpeta
+read -p "Introduce el nombre de la carpeta donde deseas inicializar el repositorio Git: " carpeta
 
 # Validar si la carpeta existe
 if [ -d "$carpeta" ]; then
