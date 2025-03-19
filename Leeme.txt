@@ -1,0 +1,28 @@
+Nota importante, el archivo "setup_git.sh" debe estar en la carpeta donde está la carpeta
+que se subirá a GitHub.
+
+Abre git bash en la ubicación de la carpeta donde está la carpeta
+que se subirá a GitHub
+
+Ejemplo:
+		
+		cd Desktop (si no funciona intenta "Escritorio" en lugar de "Desktop")
+		cd Prueba (Prueba me refiero al nombre de la carpeta como por ejemplo "Proyecto_Python")
+		Nota: en esta ubucación debe ir el archivo "setup_git.sh"
+
+
+Dale permisos de ejecución(solo debes escribir el comando): 
+
+		chmod +x setup_git.sh
+
+
+Ejecuta el script desde Git Bash o la terminal CMD con Git Bash configurado:
+
+                              ./setup_git.sh
+
+Detalles adicionales:
+El script valida si la carpeta existe antes de continuar.
+
+Utiliza read para interactuar con el usuario y solicitar mensajes, nombres de rama y URL.
+
+Agrega una pausa final con "Presiona cualquier tecla para continuar".
